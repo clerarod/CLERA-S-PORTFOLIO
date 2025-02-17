@@ -42,8 +42,17 @@ nav ul li{
     /* margin:40px 84px ; */
 }
 .left{
+    font-weight: bolder;
+    font-style: oblique;
     font-size: 2rem;
+    display: inline-block;
+    color: rgb(94, 94, 94);
+    
 }
+span.c{
+    color: rgba(67, 98, 200, 0.913);
+}
+
 .leftsection{
     color: #ffff;
     margin: 5px   50px;
@@ -56,7 +65,7 @@ nav ul li{
 .first{
     display: flex;
     justify-content: space-around;
-    margin: 120px 0;
+    margin: 90px 0;
 
 }
 .first div{
@@ -66,9 +75,13 @@ nav ul li{
    color: #fff;
 }
 .rightsection img{
-    width: 100%;
+    border-radius: 50%;
+    width: 90%;
     margin: 0 10%;
     justify-content: space-between;
+}
+.verticleimg :hover{
+    tr
 }
 .leftsection{
     font-size: 2rem;
@@ -90,6 +103,9 @@ span{
 a :hover{
     color: rgb(81, 3, 119);
 }
+.text-gray{
+    color: gray;
+}
 .second{
     /* display: block; */
  color: #fff ;
@@ -97,6 +113,39 @@ a :hover{
   margin: auto;
 
 
+}
+.box-1{
+    background: #fff;
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+.verticle{
+    height: 93px;
+    width: 1px;
+    background-color:#fff ;
+    margin: 0 80px; 
+    
+
+}
+p.Hi{
+    color: red;
+    margin: 0px  50px;
+    width: 1px;
+}
+.btns :hover{
+    color: #090909;
+    background-color: blue;
+}
+.btn{
+    padding: 5px;
+    font-weight: bolder;
+}
+.btn-2{
+    padding: 5px;
+    margin: 5%  5%;
+    font-weight: bolder;
 }
 /* hr{
     color: #9c97f1;
@@ -107,4 +156,4 @@ a :hover{
     
 
 
-}
+
