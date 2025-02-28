@@ -12,7 +12,7 @@ nav{
     justify-content: space-between;
     text-align: center;
     cursor: pointer;
-    padding: 10px  20px;
+    padding: 5px  10px;
     height:60px;
     color: #ffff;
     background-color: rgba(1, 17, 66, 0.957);
@@ -23,7 +23,7 @@ nav ul{
 }
 nav ul li{
     list-style: none;
-    margin: 10px  23px;
+    margin: 15px  15px;
     padding-bottom: auto;
     padding: auto;
     font-style: italic;
@@ -44,7 +44,8 @@ nav ul li{
 .left{
     font-weight: bolder;
     font-style: oblique;
-    font-size: 2rem;
+    margin-top: 20px;
+    font-size: 1.5rem;
     display: inline-block;
     color: rgb(94, 94, 94);
     
@@ -130,8 +131,7 @@ a :hover{
 
 }
 p.Hi{
-    color: red;
-    margin: 0px  50px;
+    margin-top: 80px -50px;
     width: 1px;
 }
 .btns :hover{
@@ -152,8 +152,32 @@ p.Hi{
     /* height: 1.2px; */
     /* width: 100%; */
  /* margin-bottom: 50%; */
-    /* margin: 40px 80px; */ */
+    /* margin: 40px 80px; */ 
+footer{
+    background-color: #090909;
+    height: 223px;
+}
+.footer{
+    display: flex;
+    margin:222px 123px;
+    color: white;
+    font-size: x-large;
+    
+}
+
+.footer-first{
+    margin: 30px -50px;
+    
+}
+.footer-second{
+    margin: 30px -9px;
     
 
-
+    
+   
+}
+.footer-third{
+    margin: 60px -50px;
+   
+}
 
